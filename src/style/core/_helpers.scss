@@ -1,0 +1,32 @@
+.__fulltwo-tre{
+    width: 75%;
+}
+
+.__mobile-full{
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+.__absolute{
+    position: absolute;
+    &.--topleft{
+        left: 0;
+        top: 0;
+    }
+}
+
+.__under{
+    z-index: -1;
+}
+
+.__onlymobile{
+    display: none;
+    @media #{$small-and-down} {
+        display: block;
+    }
+}
+
+.__nopadding{
+    padding: 0;
+}

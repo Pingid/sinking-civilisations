@@ -1,0 +1,40 @@
+{
+  "name": "canella-riccardo-it",
+  "description": "Canella Riccardo site",
+  "version": "1.0.0",
+  "author": "Riccardo Canella <canella_riccardo@icloud.com>",
+  "dependencies": {
+    "@u-wave/react-vimeo": "^0.5.0",
+    "basscss": "^8.0.4",
+    "fullpage-react": "^3.0.31",
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-google-fonts": "^0.0.4",
+    "gatsby-plugin-manifest": "^1.0.20",
+    "gatsby-plugin-offline": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "gatsby-plugin-sass": "^1.0.26",
+    "isomorphic-fetch": "^2.2.1",
+    "react-helmet": "^5.2.0",
+    "react-slick": "^0.20.0",
+    "slick-carousel": "^1.8.1",
+    "webfontloader": "^1.6.28"
+  },
+  "keywords": [
+    "gatsby",
+    "portfolio"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}

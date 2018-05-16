@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+}
+
+body{
+    background: $background;
+    color: $textcolor;
+    font-family: $fontbase;
+}
+
+section{
+    min-height: 100vh;
+    padding: 62px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    &.--column{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    &.--row{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section__title__background{
+        font-size: 18rem;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        margin: 0;
+        color: $lighttext;
+        width: 100%;
+    }
+    @media #{$small-screen-portrait-and-down} {
+        padding: 30px 10px;
+        overflow: hidden;
+        height: 100%;
+        .section__title__background{
+            font-size: 4rem;
+            color: $secondary;
+            position: relative;
+            margin-bottom: 80px;
+        }
+    }
+}
+
+h1{
+    font-size: 3.75rem;
+    margin: 0.67em 0 0 0;
+    
+}
+
+h2{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: $fontparag;
+    font-weight: 400;
+}
+
+p{
+    font-family: $fontparag;
+    font-size: 1.24rem;
+    letter-spacing: 1.5px;
+    word-break: break-word;
+}
+
+a{
+    background: $goldgradient;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 300%;
+    text-decoration: none;
+    background-position-x: 0%;
+    transition: background 6s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    will-change: background, letter-spacing;
+    &:hover{
+        background-position-x: -150%;
+    }
+    &.--noeffect{
+        -webkit-text-fill-color: $secondary;
+        background: none;
+    }
+}
+
+.social{
+    a{
+        margin-right: 10px;
+    }
+}

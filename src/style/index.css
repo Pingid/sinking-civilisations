@@ -1,0 +1,12 @@
+
+h1, h2, h3 { font-family: 'Libre Baskerville', Serif; }
+h1 { font-size: 46px; }
+h2 { font-size: 32px; }
+h3 { font-size: 23px; color: #4c4646;}
+
+p {
+	font-family: 'Nunito', Sans-Serif;
+	font-size: 16px;
+}
+
+iframe { border: none; outline: none; }
