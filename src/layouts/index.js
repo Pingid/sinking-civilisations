@@ -45,13 +45,13 @@ class TemplateWrapper extends Component {
         >
           <meta name="Description" content={description} />
           <meta name="description" content={description} />
-          <meta property="og:url" content="https://canellariccardo.it" />
+          <meta property="og:url" content="https://sinkingcivilisations.com" />
           <meta property="og:title" content={title} />
           <meta property="og:site_name" content={title} />
           <meta property="og:description" content={description} />
           {/* <meta property="og:image" content={image} /> */}
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:creator" content="@ricanella92" />
+          <meta name="twitter:creator" content="@dmbeaven" />
           <meta name="twitter:title" content={title} />
           <meta name="twitter:description" content={description} />
           {/* <meta name="twitter:image" content={image} /> */}

@@ -1,8 +1,8 @@
 {
-  "name": "canella-riccardo-it",
-  "description": "Canella Riccardo site",
+  "name": "sinking-civilisations",
+  "description": "Sinking civilisations - documentary film",
   "version": "1.0.0",
-  "author": "Riccardo Canella <canella_riccardo@icloud.com>",
+  "author": "Dan Beaven <dm.beaven@gmail.com>",
   "dependencies": {
     "@u-wave/react-vimeo": "^0.5.0",
     "basscss": "^8.0.4",
